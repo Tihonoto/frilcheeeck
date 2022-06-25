@@ -3,10 +3,17 @@ background-color: rgb(0, 255, 34);
 display: flex;
 flex-direction: column;
 justify-content: center;
-align-items: center; 
+align-items: center;
+font-family: 'Titan One', cursive;
 }
 #header {
-background-color: rgb(138, 10, 10);
+    background-color: rgb(0, 255, 34);
+
+color: #3b3bd1;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
 #NAV {
 background-color: rgb(32, 229, 255);
@@ -87,6 +94,7 @@ list-style: none;
     }
 #CONTENT {
     background-color: rgb(57, 0, 131);
+    padding: 5px;
 }
 #sidebar {
     background-color: rgb(255, 162, 235);
@@ -94,13 +102,30 @@ list-style: none;
 #footer {
     background-color: rgb(37, 28, 75);
 }
-.carousele{
+
+#POST{
+    display: flex;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    margin: 5px;
+    border: solid 2px #efefff;
+    border-radius: 10px;
+}
+#VIDEO{
     margin: 10px;
 }
-.carousele div img{
-    width: 100%;
+
+#FOOTER{
+background-color: rgb(47, 0, 255);
+display: flex;
+padding: 10px;
+color: rgb(255, 255, 255);
+
 }
 
+#FOOTER img{
+    flex: 40%;
 
+}
 
 
